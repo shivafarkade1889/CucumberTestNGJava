@@ -1,0 +1,601 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Browser is getting statred",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_getting_statred()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Browser is launched",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_launched()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate Browser is up and running",
+            "match": {
+              "location": "stepDefinations.stepDefination.validate_browser_is_up_and_running()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T16:51:25.375Z",
+        "line": 59,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26998500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinations.stepDefination.User_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User login into application with Test1 and Password1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test1",
+                  "offset": 33
+                },
+                {
+                  "val": "Password1",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinations.stepDefination.user_login_into_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinations.stepDefination.Home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinations.stepDefination.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Browser is getting statred",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_getting_statred()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1003000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Browser is launched",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_launched()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate Browser is up and running",
+            "match": {
+              "location": "stepDefinations.stepDefination.validate_browser_is_up_and_running()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T16:51:25.587Z",
+        "line": 60,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1008500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinations.stepDefination.User_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1006100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User login into application with Test2 and Password2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test2",
+                  "offset": 33
+                },
+                {
+                  "val": "Password2",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinations.stepDefination.user_login_into_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinations.stepDefination.Home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinations.stepDefination.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Browser is getting statred",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_getting_statred()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Browser is launched",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_launched()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate Browser is up and running",
+            "match": {
+              "location": "stepDefinations.stepDefination.validate_browser_is_up_and_running()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T16:51:25.887Z",
+        "line": 61,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1007500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinations.stepDefination.User_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1996100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User login into application with Test3 and Password3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test3",
+                  "offset": 33
+                },
+                {
+                  "val": "Password3",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinations.stepDefination.user_login_into_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinations.stepDefination.Home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinations.stepDefination.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Browser is getting statred",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_getting_statred()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Browser is launched",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_launched()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate Browser is up and running",
+            "match": {
+              "location": "stepDefinations.stepDefination.validate_browser_is_up_and_running()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T16:51:25.960Z",
+        "line": 62,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinations.stepDefination.User_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User login into application with Test4 and Password4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test4",
+                  "offset": 33
+                },
+                {
+                  "val": "Password4",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinations.stepDefination.user_login_into_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinations.stepDefination.Home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinations.stepDefination.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Browser is getting statred",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_getting_statred()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Browser is launched",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_launched()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate Browser is up and running",
+            "match": {
+              "location": "stepDefinations.stepDefination.validate_browser_is_up_and_running()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T16:51:25.979Z",
+        "line": 63,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinations.stepDefination.User_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User login into application with Test5 and Password5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test5",
+                  "offset": 33
+                },
+                {
+                  "val": "Password5",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinations.stepDefination.user_login_into_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinations.stepDefination.Home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinations.stepDefination.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Common.feature",
+    "tags": []
+  }
+]
